@@ -1,0 +1,17 @@
+.footer{
+    width: 100%;
+    height: 500px;
+    background-color: rgb(31, 31, 31);
+    color: white;
+    padding-top: 20px;
+
+    .footerNav{
+        width: 70%;
+        margin: 180px auto;
+        justify-content: space-between;
+        display: flex;
+        ul{
+            list-style: none;
+        }
+    }
+}

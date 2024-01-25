@@ -1,0 +1,46 @@
+.formAdd{
+    margin: 30px auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 50%;
+    height: 400px;
+    padding: 20px 0;
+    text-align: center;
+    label{
+       font-size: 20px;
+       margin: 20px auto;
+    }
+    input{
+        width: 70%;
+        padding: 10px;
+        margin: 10px;
+    }
+    button{
+        padding: 10px;
+        border: none;
+        background-color: black;
+        color: white;
+    }
+}
+
+table{
+    width: 60%;
+    margin: 20px auto;
+    border: 1px solid black;
+
+    th,td{
+        border: 1px solid black;
+        text-align: center;
+        padding: 10px;
+    }
+    button{
+        padding: 10px;
+        background-color: red;
+        border: none;
+        color: white;
+    }
+}
+
+input{
+    margin-left: 120px;
+}

@@ -1,0 +1,119 @@
+.sectionOne{
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: -1;
+
+    .text{
+        position: relative;
+        top: -480px;
+        text-align: center;
+        color: white;
+        width: 100%;
+        left: 17px;
+        font-size: 30px;
+        h3{
+            padding: 20px;
+        }
+        p{
+            padding: 10px;
+        }
+        button{
+            background-color:rgba(245, 222, 179, 0);
+            padding: 15px 20px;
+            border: 1px solid white;
+            color: white;
+            width: 170px;
+            font-size: 16px;
+        }
+    }
+}
+
+
+.sectionSecond{
+    width: 100%;
+    margin-top: 890px;
+
+    .sectionSecondCard{
+        width: 90%;
+        margin: auto;
+      
+        display: flex;
+        
+        img{
+            width: 50%;
+        }
+        .welcome{
+            text-align: left;
+            margin: 120px auto;
+            padding: 20px;
+
+            h2{
+                padding: 20px;
+                font-size: 30px;
+            }
+            p{
+                width: 500px;
+                padding: 10px;
+            color: gray;
+                font-size: 20px;
+            }
+
+            button{
+width: 190px;
+padding: 10px;
+margin-top: 20px;
+            }
+        }
+    }
+   
+}
+
+
+.crud{
+  margin-top: 20px;
+    width: 100%;
+    height: auto;
+    .cards{
+        width: 90%;
+        margin: auto;
+        padding: 20px;
+        display: flex;
+        border: 1px solid black;
+            flex-wrap: wrap;}
+}
+
+.eats{
+    width: 100%;
+    justify-self: 3px;
+    margin: 30px auto;
+
+    h2{
+        margin-left: 900px;
+        margin-bottom: 20px;
+        font-size: 30px;
+    }
+    .cards{
+        display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin: auto;
+    }
+
+    .card1{
+        width: 23%;
+        margin: auto;
+        text-align: center;
+        .price{
+            font-size: 20px;
+            color: rgb(255, 166, 0);
+        }
+    }
+}
+
+@media screen and (min-width: 600px){
+    #cards{
+       width: 100%;
+    }
+    
+}
